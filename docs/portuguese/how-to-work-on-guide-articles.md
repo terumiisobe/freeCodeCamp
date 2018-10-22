@@ -1,51 +1,51 @@
-# Como trabalhar em Artigos Guia
+# Como trabalhar em artigos de Guia
 
-Com a tua ajuda, nós podemos criar uma ferramenta de referência compreensiva que ajudará milhões de pessoas que estão a aprender código nos anos que aí vêm. 💛
+Com a sua ajuda, nós podemos criar uma ferramenta de referência compreensível que irá ajudar milhões de pessoas que estão aprendendo a programar nos próximos anos. 💛
 
-Tu podes:
+Você pode:
 
-- [Ajudar-nos criando e Editando Artigos Guia](#steps-for-creating-and-editing-guide-articles).
-- [Ajudar-nos revendo <i>pull requests</i> para Artigos Guia]()
+- [Ajudar Criando e Editando Artigos de Guia](#steps-for-creating-and-editing-guide-articles).
+- [Ajudar revisando <i>pull requests</i> para Artigos de Guia]()
 
-## Passos para Criar e Editar Artigos Guia
+## Passos para Criar e Editar Artigos de Guia
 
 1. 🍴 [Fazer <i>fork</i> a este repositório](https://github.com/freeCodeCamp/freeCodeCamp#fork-destination-box)
-2. 👀️ Seguir as guias de contribuição delineados mais abaixo.
+2. 👀️ Seguir as instruções de contribuição listadas abaixo.
 3. 🔧 Fazer algumas mudanças impressionantes!
-4. 📖 Ler este [guia de estilo de melhores práticas](/docs/style-guide-for-guide-articles).
+4. 📖 Ler este [guia de melhores práticas](/docs/style-guide-for-guide-articles).
 5. 👉 [Fazer um <i>pull request</i>](https://github.com/freeCodeCamp/freeCodeCamp/compare)
-6. 🎉 Ter o teu <i>pull request</i> aprovado - sucesso!
+6. 🎉 Ter o seu <i>pull request</i> aprovado - sucesso!
 
-Ou então apenas [criar um <i>issue</i>](https://github.com/freeCodeCamp/freeCodeCamp/issues) - qualquer pedacinho de ajuda conta! 😊
+Ou apenas [crie uma <i>issue</i>](https://github.com/freeCodeCamp/freeCodeCamp/issues) - qualquer pequena ajuda conta! 😊
 
-### [Segue estas guias recomendadas do nosso Guia de Estilo para um Artigo Guia interessante e completo](/docs/style-guide-for-guide-articles.md)
+### [Siga estas instruções recomendadas do nosso Guia de Estilo para um artigo de Guia mais atraente](/docs/style-guide-for-guide-articles.md)
 
-### Criar um <i>Pull request</i> (PR) para propor mudanças
+### Criando um <i>Pull request</i> (PR) para propor mudanças
 
-Há duas maneiras para propor uma mudança num repositório, depois de editares ou adicionar um Artigo Guia:
+Existem duas maneiras de propor uma mudança ao repositório, depois de editar ou adicionar um artigo de Guia:
 
-- [Usando o GitHub Web Interface no teu <i>browser</i>](#using-the-github-web-interface-on-your-browser).
-- [Trabalhando na tua máquina pessoal](#working-on-your-local-machine) (_recomendado_ para pré-visualizar mudanças).
+- [Usando a interface web GitHub no seu <i>browser</i>](#using-the-github-web-interface-on-your-browser).
+- [Trabalhando na máquina pessoal](#working-on-your-local-machine) (_recomendado_ para pré-visualizar as mudanças).
 
-#### Usando o GitHub Web Interface no teu browser
+#### Usando a interface web GitHub no seu <i>browser</i>
 
-Vê a demonstração em vídeo ou segue os passos abaixo:
+Assista a demonstração no vídeo ou siga os passos abaixo:
 
 **[A FAZER]** Atualizar a gravação do GIF.
 
-![GIF a mostrar os passos do GitHub interface](#)
+![GIF mostrando os passos da interface GitHub](#)
 
-1. Ir à pasta **"pages"** (localizada no [`guide`](/guide)) e encontrar o artigo que gostarias de escrever ou editar.
+1. Vá até a pasta **"pages"** (localizada no [`guide`](/guide)) e encontre o artigo raíz que gostaria de escrever ou editar.
 
-    > Todos os <i>stubs</i> estarão num ficheiro index.md
+    > Todos os artigos estarão num arquivo index.md
 
-2. Carrega o icon de lápis do <kbd>Edit this file</kbd> e faz as tuas mudanças ao ficheiro usando o GitHub-flavored Markdown.
+2. Clique no <kbd>Edit this file</kbd> ícone com o lápis e faça as suas mudanças ao arquivo no <i>GitHub-flavored Markdown</i>.
 
-    > Se o icon estiver acizentado e a dar o aviso "You must be on a branch to make or propose changes to this file", então está provavelmente na <i>tree</i> de outra pessoa. No topo esquerdo da página estará uma caixa <i>drop down</i> que dirá "Tree: #######". Carrega no <i>drop down</i> e muda o <i>branch</i> para "master". Agora o lápis deve estar clicável.
+    > Se o icon estiver cinza e dando o aviso "You must be on a branch to make or propose changes to this file", então você está provavelmente na <i>tree</i> de outra pessoa. No canto superior esquerdo da página, terá uma caixa para seleção que dirá "Tree: #######". Clique na opção e mude o <i>branch</i> para "master". Agora o ícone lápis deve estar clicável.
 
-3. Faz <i>scroll</i> até ao fim do ecrã e adiciona uma mensagem de <i>commit</i> a explicar as tuas mudanças.
+3. Vá até ao fim da tela e adicione uma mensagem de <i>commit</i> explicando as suas mudanças.
 
-    (Opcional): Nós recomendamos vivamente fazer uma mensagem de <i>commit</i> convencional. Isto é uma boa prática que verás em alguns dos repositórios <i>Open Source</i> mais populares. Como developer, isto encoraja-te a seguir práticas <i>standard</i>.
+    (Opcional): Nós recomendamos fortemente que você faça uma mensagem de <i>commit</i> convencional. Isto é uma boa prática que você verá em alguns dos repositórios <i>Open Source</i> mais populares. Como developer, isto vai te encorajar a seguir as práticas padrão.
 
     Alguns exemplos de mensagens de <i>commit</i> convencionais:
 
@@ -56,63 +56,63 @@ Vê a demonstração em vídeo ou segue os passos abaixo:
     docs: update contributing guidelines
     ```
 
-    Mantém-nas curtas, não mais que 50 caracteres. Podes sempre adicionar informação adicional na descrição da mensagem de <i>commit</i>.
+    Mantenha-as curtas, não mais que 50 caracteres. Você sempre pode adicionar mais informações na descrição da mensagem de <i>commit</i>.
 
     Isto não leva tempo adicional comparado com uma mensagem não convencional como 'update file' ou 'add index.md'
 
-    Podes aprender mais sobre <i>commits</i> convencionais [aqui](https://www.conventionalcommits.org/en/v1.0.0-beta.2/#why-use-conventional-commits).
+    Você pode aprender mais [aqui](https://www.conventionalcommits.org/en/v1.0.0-beta.2/#why-use-conventional-commits).
 
-4. Seleciona a opção de <i>radio button</i> para **"Create a new branch for this commit and start a pull request"** e clica em <kbd>Propose file changes</kbd>.
+4. Então, selecione a opção para **"Create a new branch for this commit and start a pull request"** e clique em <kbd>Propose file changes</kbd>.
 
-5. No próximo ecrã podes adicionar outros detalhes sobre o teu PR e depois clica em <kbd>Create pull request</kbd>.
+5. No próxima tela você poderá adicionar outros detalhes sobre o seu PR, depois clique em <kbd>Create pull request</kbd>.
 
-Parabéns 🎉! Criaste um <i>pull request</i>.
+Parabéns 🎉! Você acabou de criar um <i>pull request</i>.
 
-#### Trabalhando na tua máquina pessoal (_recomendado_ para pré-visualizar mudanças)
+#### Trabalhando na máquina pessoal (_recomendado_ para pré-visualizar mudanças)
 
-Não é obrigatório trabalhares na tua máquina pessoal, a não ser que queiras pré-visualizar as tuas edições ou trabalhar com <i>UI fixes</i> e melhorias. Também é recomendado caso encontres problemas de git como conflitos de <i>merge, rebasing</i>, etc.
+Não é obrigatório trabalhar na sua máquina pessoal, a não ser que queira pré-visualizar as suas edições ou trabalhar com correções de <i>UI</i> e otimizações. Este método também é recomendado caso encontre problemas com git como conflitos de <i>merge</i>, <i>rebasing</i>, etc.
 
-##### Lê estas guias em [Como configurar o freeCodeCamp localmente](/docs/how-to-setup-freecodecamp-locally.md)
+##### Leia estas recomendações em [Como configurar o freeCodeCamp localmente](/docs/how-to-setup-freecodecamp-locally.md)
 
-### Ter um PR aceite
+### Ter um PR aceito
 
-Aqui estão algumas diretrizes que os <i>reviewers</i> seguem ao analizar PRs:
+Aqui estão algumas instruções que os <i>reviewers</i> seguem ao analisar PRs:
 
 - tem uma descrição e título relevantes
 - o PR respeita o [guia de estilo](/docs/style-guide-for-guide-articles)
-- nós seguimos dicas QA gerais em [Directrizes de Moderador](https://forum.freecodecamp.org/t/freecodecamp-moderator-guidelines/18295)
-- desde que um <i>pull request</i> melhore ou expanda o guia, nós aceitamo-lo mesmo que contenha linguagem imperfeita ou conteúdo parcial
-- <i>pull requests</i> mais antigos são analizados primeiro
+- nós seguimos dicas QA padrão encontradas em [Directrizes de Moderador](https://forum.freecodecamp.org/t/freecodecamp-moderator-guidelines/18295)
+- desde que um <i>pull request</i> melhore ou expanda o guia, nós aceitamos mesmo que contenha Inglês imperfeito ou conteúdo incompleto
+- <i>pull requests</i> mais antigos são analisados primeiro
 
-#### Labels
+#### Etiquetas
 
-- **content** é para <i>pull requests</i> que modificam o conteúdo dos artigos no guia (adicionam um novo artigo ou atualizam um já existente)
-- **duplicate** é para <i>pull requests</i> que têm o mesmo conteúdo que outro PR
+- **content** é para <i>pull requests</i> que modificam o conteúdo dos artigos no guia (adicionam um novo artigo ou atualisam um já existente)
+- **duplicate** é para <i>pull requests</i> que têm o mesmo conteúdo que outro PR aberto
 - **changes requested** é para <i>pull requests</i> que precisam de mudanças antes de serem <i>merged</i>
-- **stale** é para <i>pull requests</i> com uma <i>label</i> _"changes requested"_  que não tem actividade após 2 semanas e será consequentemente fechado
+- **stale** é para <i>pull requests</i> com uma <i>label</i> _"changes requested"_  que não tem atividade após 2 semanas e será fechado em seguida
   - Um <i>pull requests</i> _stale_ deve ser fechado.
   - Aqui está [um exemplo](https://github.com/freeCodeCamp/freeCodeCamp/pull/235).
 
-#### Conteúdo Contraditório/Duplicado
+#### Conteúdo Conflitante/Duplicado
 
-UM PR é considera um **duplicate** se faz mudanças ao mesmo artigo que outro PR.
+UM PR é considera um **duplicado** se faz mudanças ao mesmo artigo que outro PR.
 
 Em geral, um <i>reviewer</i> irá:
 
 1. Ordenar PR por mais antigo
-2. Procurar PRs com conteúdo parecido
+2. Procurar PRs com conteúdo similar
 3. <i>Merge</i> do mais antigo para o mais recente
 
 É muito provável que existirão conflitos de <i>merge</i> com PRs duplicados.
 
-Reviewers farão todos os esforços para resolver estes conflitos e combinar os PRs duplicados.
+<i>Reviewers</i> farão todos os esforços para resolver estes conflitos e combinar os PRs duplicados.
 
 #### Pedir Mudanças
 
-Se um <i>pull requests</i> não é perfeito, o revisor poderá:
+Se um <i>pull requests</i> não é perfeito, o <i>reviewer</i> poderá:
 
-- pedir mudanças ao contribuidor e adicionar a label *changes requested*
-- resolver problemas menores e fazer um <i>commit> no topo do PR
+- pedir mudanças ao contribuidor e adicionar a <i>label *changes requested*</i>
+- consertar problemas menores e fazer um <i>commit</i> acima do PR
 
 #### Travis CI Build
 
@@ -120,57 +120,57 @@ Todos os PRs devem passar a verificação do Travis CI antes de acontecer o <i>m
 
 Se um PR quebra o <i>build</i> (uma verificação Travis CI falha e mostra um "X" vermelho) existem três causas prováveis.
 
-Precisas de resolver o provlema antes de podermos <i>merge</i> o teu PR:
+Você precisará de resolver o provlema antes de podermos <i>merge</i> o teu PR:
 
-1. O teu PR cria um novo artigo e falta o ficheiro 'index.md' algures.
-    - Todas as pastas no `src/pages` precisam de um ficheiro `index.md` (e o nome tem de ser `index.md`).
-    - Dois cenários prováveis sãoT
-      - deste algum outro nome ao ficheiro do novo artigo que não `index.md`, ou
-      - criaste uma nova pasta e uma outra sub-pasta e escreveste o artigo na sub-pasta mas esqueceste-te de pôr um ficheiro `index.md` na nova pasta
-2. O teu PR cria uma nova pasta e o nome da pasta não está formatado corretamente.
-    - O nome da tua pasta deve ser todo em minúsculas e formatado em kebab-case (ex. my-new-folder).
-3. O artigo não tem um campo para o `title` no topo.
-    - Por favor refere à secção do [Title](#title) mais abaixo por baixo de  [Guia de Estilo para escrever artigos](/docs/style-guide-for-guide-articles.md).
+1. O seu PR cria um novo artigo e falta o ficheiro 'index.md' em algum lugar.
+    - Todas as pastas no `src/pages` precisam de um arquivo `index.md` (e o nome deve ser `index.md`).
+    - Dois cenários prováveis são
+      - você nomeou o arquivo do novo arquivo diferente de `index.md`, ou
+      - você criou a ambos uma nova pasta, e uma sub-pasta, e escreveu o novo artigo na sub-pasta mas esqueceu de colocar um arquivo `index.md` na nova pasta
+2. O teu PR criou uma nova pasta e o nome da pasta não está formatado corretamente.
+    - O nome da sua pasta deve ser todo em minúsculo e formatado em <i>kebab-case</i> (ex. minha-nova-pasta).
+3. O artigo não tem o campo `title` no topo.
+    - Por favor leia a seção do [Title](#title) abaixo, em seguida de  [Guia de Estilo para escrever artigos](/docs/style-guide-for-guide-articles.md).
 
-### Quando fechamos <i>pull requests</i>
+### Quando fechamos um <i>pull requests</i>
 
 Nós fechamos PR
-- se um PR mais antigo do mesmo artigo é <i>merged</i> e o teu PR não adicionar novo conteúdo
-- se há zero/pouco esforço (ex.: copiar e colas de outra fonte como a Wikipédia)
+- se um PR mais antigo do mesmo artigo é <i>merged</i> e o seu PR não adiciona conteúdo novo
+- se há nunhum/pouco esforço nele(ex.: copiar e colar de outra fonte como a Wikipédia)
 - se há texto copiado de uma fonte com </i>copyright</i>i - ver [problema de citação](https://github.com/freeCodeCamp/freeCodeCamp/issues/2503)
 - se não respeita o [Guia de Estilo para escrever artigos](/docs/style-guide-for-guide-articles.md)
 - se não respeita o [Academic Honesty policy](https://www.freecodecamp.org/academic-honesty)
 - se está parado (se a mudança é pedida e não há atividade durante duas semanas)
 
-Também, se estiveres a trabalhar de um artigo <i>"stub"</i>, as tuas mudanças devem ser substanciais o suficiente para substituir o texto <i>stub</i>.
+Também, se estiveres trabalhando em um artigo <i>"stub"</i>, as tuas mudanças devem ser substanciais o suficiente para substituir o texto <i>stub</i>.
 
-Não aceitamos um PR que só adiciona links à secção de "Mais Informação:".
+Não aceitamos um PR que só adiciona links à seção de "Mais Informação:".
 
-O repositório tem um script `Normalise.js` que adiciona atributos a links, mas também procura texto "This is a stub..." via um RegEx.
+O repositório tem um script `Normalise.js` que adiciona atributos a links, mas também procura o texto "This is a stub..." via um RegEx.
 
-Se encontrado, vai reverter o artigo de volta para o texto <i>stub</i> genérico (e apagar as tuas mudanças).
+Se encontrado, vai reverter o artigo texto de volta para o texto <i>stub</i> genérico (e apagar as suas mudanças).
 
-Este é comportamento pretendido, visto que permite-nos atualizar todos os <i>stubs</i> se o <i>template stub</i> por alguma razão.
+Este é comportamento pretendido, visto que nos permite atualizar todos os <i>stubs</i> se o <i>template stub</i> mudou por alguma razão.
 
-### Encontrar Ajuda
+### Conseguir Ajuda
 
-Há uma comunidade de suporte de uma equipa inteira de contribuidores, com quem podes trocar ideias e pedir opiniões sobre a tua escrita.
+Existe uma comunidade de suporte de uma equipa inteira de contribuidores, com quem poderá trocar ideias e pedir opiniões sobre a sua escrita.
 
-Mantém-te ativo no [chat room de contribuidores](https://gitter.im/freecodecamp/contributors) e faz muitas perguntas.
+Mantenha-se ativo no [chat room de contribuidores](https://gitter.im/freecodecamp/contributors) e faça muitas perguntas.
 
 ---
 
-## Passos para rever <i>pull requests</i> para Artigos Guia
+## Passos para revisar <i>pull requests</i> para artigos de Guia
 
-> Esta secção é direccionada a revisores deste repositório.
+> Esta secção é direccionada a <i>reviewers</i> deste repositório.
 
 ## Squash e Merge
 
-Nós usamos a opção <kcd>Squash and merge</kcd> quando <i>merging</i> o PR que mantém a <i>commit history</i> limpa.
+Nós usamos a opção <kcd>Squash and merge</kcd> quando combinamos o PR que mantém o histórico de <i>commits</i> limpo.
 
 ![GIF - Squash and merge](https://files.gitter.im/FreeCodeCamp/Contributors/56MQ/9cb8db153d7bb1b3576cd1ffc207e39d.gif)
 
-### Filtrar PRs
+### Filtrando PRs
 
 > PR, Open, Oldest First, Travis CI Build successful, no one assigned, no comments
 
@@ -182,7 +182,7 @@ Nós usamos a opção <kcd>Squash and merge</kcd> quando <i>merging</i> o PR que
 
 ### Templates
 
-> Podes criar os teus próprios templates na feature inserida no GitHub em [**Saved replies**](https://github.com/settings/replies/) ou usar os mais abaixo.
+> Você pode criar o seu próprio templates na feature do GitHub [**Saved replies**](https://github.com/settings/replies/) ou usar os abaixo.
 
 #### Agradecimento
 
@@ -194,13 +194,13 @@ We're happy to accept these changes, and look forward to future contributions. �
 
 Em português:
 ```markdown
-Obrigado pela tua contribuição para a página! 👍
-Estamos muito felizes em aceitar estas mudanças e esperamos ver mais tuas contibuições no futuro. 🎉
+Obrigado pela sua contribuição à página! 👍
+Estamos muito felizes em aceitar estas mudanças e esperamos ver mais contribuições suas no futuro. 🎉
 ```
 
 #### Agradecimento e parabenização
 
-> Para agradecer e encorajar a primeira contribuição de um utilizador.
+> Para agradecer e encorajar a primeira contribuição de um contribuidor.
 
 Em inglês:
 ```markdown
@@ -212,10 +212,10 @@ We're happy to accept these changes, and look forward to future contributions. �
 
 Em português:
 ```markdown
-Olá @username. Parabéns pelo teu primeiro pull request (PR)! 🎉
+Olá @username. Parabéns pelo seu primeiro pull request (PR)! 🎉
 
-Obrigada pela tua contribuição para a página! 👍
-Estamos muito felizes em aceitar estas mudanças e esperamos ver mais tuas contibuições no futuro. 📝
+Obrigada pela sua contribuição para a página! 👍
+Estamos muito felizes em aceitar estas mudanças e esperamos ver mais contribuições suas no futuro. 📝
 ```
 
 #### Erro de Build
@@ -232,15 +232,15 @@ Em português:
 ```markdown
 Olá @username
 
-Adoraria juntar as tuas mudanças mas parece que há um erro com o Travis CI build. ⚠️
+Adoraria juntar as suas mudanças mas parece que há um erro com o Travis CI build. ⚠️
 
-Assim que resolveres estes problemas, poderei rever o teu PR e juntar ao repositório. 😊
+Assim que resolver este problema, poderei rever o teu PR e combinar ao repositório. 😊
 
 ---
 
-> Estás à vontade de referenciar o [Guia de Estilo para escrever artigos](https://github.com/freeCodeCamp/freeCodeCamp#article-title) para este repositório no que toca a formatar um artigo corretamente para que o teu Travis CI build seja aprovado. ✅
+> Fique à vontade para referenciar o [Guia de Estilo para escrever artigos](https://github.com/freeCodeCamp/freeCodeCamp#article-title) para este repositório na maneira correta de formatar um artigo para que o seu Travis CI build seja aprovado. ✅
 >
-> Também é uma boa prática no GitHub escrever uma breve descrição das tuas mudanças quando crias um PR. 📝
+> Também é uma boa prática no GitHub escrever uma breve descrição das suas mudanças quando cria um PR. 📝
 ```
 
 #### Syncing Fork
@@ -279,17 +279,17 @@ Em português:
 ``````markdown
 Olá @username
 
-Adoraria juntar as tuas mudanças mas parece que há um erro com o Travis CI build. ⚠️
+Adoraria juntar as suas mudanças mas parece que há um erro com o Travis CI build. ⚠️
 
 ```bash
 Error: ENOTDIR: not a directory, open 'src/pages/java/data-abstraction/index.md'
 ```
 
-Este erro em particular não foi causado pelo teu ficheiro mas foi um erro antigo causado pelo <i>merge</i> de código defeituoso ao `master` <i>branch</i>. Foi, desde então, resolvido.
+Este erro em particular não foi causado pelo seu arquivo mas por um erro antigo causado pelo <i>merge</i> de código defeituoso ao `master` <i>branch</i>. Mas ele foi resolvido.
 
-Para ser aprovado, terás que sincronizar as mudanças mais recentes do `master` <i>branch</i> do repositório do `freeCodeCamp/freeCodeCamp`.
+Para ser aprovado, você terá que sincronizar as mudanças mais recentes do `master` <i>branch</i> do repositório do `freeCodeCamp/freeCodeCamp`.
 
-Usando a linha de comandos, podes fazer isto em três passos fáceis:
+Usando a linha de comando, você poderá fazer isto em três passos fáceis:
 
 ```bash
 git remote add upstream git://github.com/freeCodeCamp/freeCodeCamp.git
@@ -299,20 +299,19 @@ git fetch upstream
 git pull upstream master
 ```
 
-Se estás a usar um GUI, podes simplesmente `Add a new remote...` e usar o link `git://github.com/freeCodeCamp/freeCodeCamp.git` de cima.
-
-Assim que resolveres estes problemas, poderei rever o teu PR e juntar ao repositório. 😊
+Se estás a usar um GUI, pode simplesmente `Add a new remote...` e usar o link `git://github.com/freeCodeCamp/freeCodeCamp.git` acima
+Assim que resolverer este problema, poderei rever o teu PR e juntar ao repositório. 😊
 
 ---
 
-> Estás à vontade para referênciar o artigo de [Sincronizar um Fork](https://help.github.com/articles/syncing-a-fork/) do GitHub para mais informação em como manter o teu <i>fork</i> atualizado com o repositório principal. 🔄
+> Fique a vontade para referênciar o artigo de [Sincronizar um Fork](https://help.github.com/articles/syncing-a-fork/) do GitHub para mais informação em como manter o teu <i>fork</i> atualizado com o repositório principal. 🔄
 >
-> Também é uma boa prática no GitHub escrever uma breve descrição das tuas mudanças quando crias um PR. 📝
+> Também é uma boa prática no GitHub escrever uma breve descrição das suas mudanças quando cria um PR. 📝
 ``````
 
-#### Conflictos de Merge
+#### Conflitos de Merge
 
-> Quando o PR tem conflitos de merge que necessitam de ser resolvidos.¹
+> Quando o PR tem conflitos de merge que precisam ser resolvidos.¹
 
 Em inglês:
 ```markdown
@@ -333,15 +332,15 @@ Em português:
 ```markdown
 Olá @username
 
-Adoraria juntar as tuas mudanças mas parece que tens algums conflitos de <i>merge</i>. ⚠️
+Adoraria juntar as suas mudanças mas parece que tem alguns conflitos de <i>merge</i>. ⚠️
 
-Assim que resolveres estes problemas, poderei rever o teu PR e juntar ao repositório. 😊
+Assim que resolver estes problemas, poderei rever o seu PR e juntar ao repositório. 😊
 
 ---
 
-> Se não estiveres familiar com o processo de conflito de <i>merge</i>, consulta o guia do GitHub quanto a ["Resolver um conflito de merge"](https://help.github.com/articles/resolving-a-merge-conflict-on-github/). 🔍️
+> Se não estivere familiarizado com o processo de conflito de <i>merge</i>, consulte o guia do GitHub quanto a ["Resolver um conflito de merge"](https://help.github.com/articles/resolving-a-merge-conflict-on-github/). 🔍️
 >
-> Também é uma boa prática no GitHub escrever uma breve descrição das tuas mudanças quando crias um PR. 📝
+> Também é uma boa prática no GitHub escrever uma breve descrição das suas mudanças quando cria um PR. 📝
 ```
 
 ¹ Se é um utilizador a contribuir pela primeira vez tem um problema de <i>merge</i> os <i>mantainers</i> irão resolver o conflito por eles.
@@ -377,14 +376,14 @@ Em português:
 ```markdown
 Olá @username
 
-Parece que mudanças semelhantes já foram aceites antes para este artigo que estás a editar, desculpa. 😓
+Parece que mudanças semelhantes já foram aceites antes para este artigo que está editando, desculpe. 😓
 
-Se achares que tens mais a adicionar, estás à vontade para abrir outro PR.
+Se achar que tem mais a adicionar, fique à vontade para abrir outro PR.
 
-Obrigada mais uma vez! 😊
+Obrigado mais uma vez! 😊
 ---
 
-> Se tens alguma questão, contacta-nos através do [Gitter](https://gitter.im/FreeCodeCamp/Contributors) ou comentando abaixo. 💬
+> Se tem alguma dúvida, nos contate através do [Gitter](https://gitter.im/FreeCodeCamp/Contributors) ou comentando abaixo. 💬
 ```
 
 #### Fechar pull requests inválidos
@@ -404,7 +403,7 @@ Em português:
 ```markdown
 Olá @username
 
-Não adicionaste nenhum conteúdo portanto vou ter de invalidar este <i>pull request</i> e marcá-lo como `invalid`. 😓️
+Você não adicionou nenhum conteúdo portanto vou ter de invalidar este <i>pull request</i> e marcá-lo como `invalid`. 😓️
 
-Estás à vontade para abrir outro PR! 👍
+Fique à vontade para abrir outro PR! 👍
 ```
